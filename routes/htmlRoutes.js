@@ -1,9 +1,15 @@
 const htmlRte = require('express').Router();
-const generateUniqueId = require ('generate-unique-id');
-const genId = generateUniqueId({
-    length: 5
-})
+const path = require('path');
 
 
-// Get /notes --> notes.html
-// Get * --> index.html
+htmlRte.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/notes.html'));
+    console.info(`${req.method} request received`);
+});
+
+htmlRte.get('/*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/index.html'));
+    console.info(`${req.method} request received`);
+});
+
+module.exports = htmlRte;
