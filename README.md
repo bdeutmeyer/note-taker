@@ -19,3 +19,6 @@ https://github.com/bdeutmeyer/note-taker
 
 ## Credits  
 All of the front-end code was provided as part of the curriculum. Almost all of the back-end code is mine, with the exception of the ```fsUtils.js``` file. That file of utility functions was copied directly from the Unit 11 miniproject code.
+
+## Link to live site
+https://lit-ridge-70963-de8199e02790.herokuapp.com/
