@@ -1,3 +1,27 @@
 [
-
+    {
+        "title": "Mow the lawn",
+        "text": "And use the string trimmer",
+        "id": "78c268f0-5ec2-48fe-80fc-1dc02ab516d3"
+    },
+    {
+        "title": "Finish making costumes",
+        "text": "Halloween is under 2 weeks away!",
+        "id": "43fe54f7-9b01-4d80-ab9e-b15e68d6e494"
+    },
+    {
+        "title": "Bake muffins",
+        "text": "Bran muffin recipe in binder",
+        "id": "bc865ef8-50df-47e9-aae5-0728279e77fd"
+    },
+    {
+        "title": "Laundry",
+        "text": "All washed, folded, and away by Sunday afternoon",
+        "id": "b13fa207-32ac-4886-9d8f-27d8fb43886d"
+    },
+    {
+        "title": "Buy groceries",
+        "text": "See list in Google Keep",
+        "id": "c52ff63a-8ce6-458f-a92e-ae79a2294e85"
+    }
 ]
